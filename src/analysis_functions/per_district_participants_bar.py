@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 def per_district_participants_bar(series: pd.Series, threshold=300):
     """
     Horizontal bar chart of participants per district.

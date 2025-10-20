@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 def per_state_participants_piechart(series: pd.Series, threshold=1000):
     """
     Pie chart of participants per state.

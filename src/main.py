@@ -5,8 +5,13 @@ import matplotlib.pyplot as plt
 from analysis_functions import *
 
 
-
 def main(csv_file: str):
+    """
+    Main function to read data, display a menu, and generate plots based on user choice.
+
+    Args:
+        csv_file (str): Path to the CSV file containing the dataset.
+    """
     df = pd.read_csv(csv_file)
     s1 = df['State Name'].value_counts()
     s2 = df['District Name'].value_counts()
@@ -30,6 +35,7 @@ def main(csv_file: str):
             print("Exiting...")
             break
         elif choice in menu:
+            # Execute the function associated with the menu choice
             menu[choice][1]()
         else:
             print("Invalid choice. Please try again.")

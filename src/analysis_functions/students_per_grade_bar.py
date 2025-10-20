@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 def students_per_grade_bar(df: pd.DataFrame):
     grade_counts = df['Class'].value_counts().sort_index()
     fig, ax = plt.subplots(figsize=(8, 5))

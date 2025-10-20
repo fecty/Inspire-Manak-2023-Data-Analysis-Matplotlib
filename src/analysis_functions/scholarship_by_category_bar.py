@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+
 def scholarship_by_category_bar(df: pd.DataFrame):
     category_amount = df.groupby('Category name')['Amount of Scholarship'].sum().sort_values()
     fig, ax = plt.subplots(figsize=(8, 5))
