@@ -1,6 +1,6 @@
 # INSPIRE MANAK Data Analysis Tool
 
-This tool provides a set of visualizations for analyzing data from the INSPIRE MANAK project.
+This tool provides a set of visualizations for analyzing data from the INSPIRE MANAK 2023 project The data is taken from [data.gov.in](https://www.data.gov.in/resource/year-wise-grant-school-students-class-6-10-across-statesuts-during-2023) for the year 2023.
 
 ## Features
 
