@@ -1,0 +1,5 @@
+from .gender_participation_pie import gender_participation_pie
+from .per_district_participants_bar import per_district_participants_bar
+from .per_state_participants_piechart import per_state_participants_piechart
+from .scholarship_by_category_bar import scholarship_by_category_bar
+from .students_per_grade_bar import students_per_grade_bar
